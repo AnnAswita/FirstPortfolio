@@ -1,4 +1,4 @@
-import {BrowserRouter, Link} from 'react-router-dom'
+import {HashRouter, Link} from 'react-router-dom'
 import {Route, Routes} from 'react-router-dom'
 
 import './App.css'
@@ -13,7 +13,7 @@ import Education from './Pages/Education'
 function App() {
   
   return (
-    <BrowserRouter>
+    <HashRouter>
     <header className="header">
         <nav className="navbar">
             <ul className="nav-links">
@@ -38,7 +38,7 @@ function App() {
       <footer>
         <p>&copy;{new Date().getFullYear()} Ann Aswita John. All Rights Reserved.</p> 
       </footer> 
-    </BrowserRouter>
+    </HashRouter>
       
   );
 }
