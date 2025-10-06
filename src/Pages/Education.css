@@ -1,0 +1,36 @@
+.pageHeading{
+    margin-top: 50px;
+    width: 100%;
+    text-align: center;
+    background-color: #1C352D ;
+    color:white;
+} /**/
+h2{
+padding: 10px 0px;
+} /**/
+.educationContainer{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+} /**/
+.item{
+    border-bottom: 5px double #1C352D;
+}
+.educationLinks{
+    color: #059212;
+}
+.educationLinks:link{
+  text-decoration: none;
+}
+
+.educationLinks:visited {
+  text-decoration: none;
+}
+
+.educationLinks:hover {
+  text-decoration: underline;
+}
+
+.educationLinks:active {
+  text-decoration: underline;
+}

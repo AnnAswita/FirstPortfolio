@@ -1,0 +1,9 @@
+.projectContainer{
+    display: flex;
+    gap:25px;
+}
+
+.projectCard{
+    border: 5px double, #1C352D;
+    padding: 10px;
+}

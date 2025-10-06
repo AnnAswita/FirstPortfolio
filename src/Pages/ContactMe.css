@@ -1,0 +1,38 @@
+.contactContainer{
+    line-height: 2.8;
+}
+.emailLink{
+    color: #900C3F;
+}
+.emailLink:link{
+  text-decoration: none;
+}
+
+.emailLink:visited {
+  text-decoration: none;
+}
+
+.emailLink:hover {
+  text-decoration: underline;
+}
+
+.emailLink:active {
+  text-decoration: underline;
+}
+
+.formButtons{
+    border-style: none;
+    border-radius: 5px;
+    height: 2rem;
+    width: 5rem;
+    font-weight: 600;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+#submit{
+    background-color:#06D001;
+    margin-left: 20px;
+    
+}
+#reset{
+    background-color: #FFE700;
+}

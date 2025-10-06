@@ -1,0 +1,41 @@
+ body{
+  background-color: #CADCAE;
+  color: #0A400C;
+}
+.button{
+  color: white;
+  font-size: 16px;
+  text-decoration: none;
+  text-align: center;
+  background-color: #537D5D;
+  padding: 15px 32px;
+  border-radius: 5px;
+  
+} 
+.navbar{
+  margin-top: 3%;
+}
+.nav-links{
+  display: flex;
+  justify-content: flex-end;
+}
+
+ li{
+  display: inline;
+  list-style: none;
+  margin-right: 10px;
+}
+
+footer{
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+} 
+.navButton:hover {
+  background-color: #06D001;
+}
+
+.navButton:active {
+  background-color: #06D001;
+}
