@@ -14,7 +14,7 @@ function Skills() {
               {"★".repeat(skill.level) + "☆".repeat(5 - skill.level)}
             </span>
           </div>
-        ))}
+        ))} {/* depending on the skill level filled and unfilled stars are displayed*/}
     
     <span></span>
 </div>

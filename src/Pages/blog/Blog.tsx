@@ -1,7 +1,7 @@
 import  { useState } from "react";
 import './Blog.css'
-import type {BlogData} from "../../types/blog"
-import blogData from "../../data/blog.json"
+import type {BlogData} from "../../types/blog" //type is imported
+import blogData from "../../data/blog.json" //json data file is imported
 
 function Blog() {
   const data: BlogData = blogData as BlogData
@@ -14,7 +14,7 @@ function Blog() {
 <div id="blog" className="Blog">
   <div className="pageHeading"><h2>Blog</h2></div>
   <div className="blogContainer container">
-    {data.posts.map((post) =>(
+    {data.posts.map((post) =>(  
       <div className="post-card card">
         <h3>{post.title}</h3>
         <small>{post.date}</small>
@@ -22,11 +22,11 @@ function Blog() {
           <div className="post-content">
             <p>{post.content}</p>
           </div>
-        )}
+        )} {/* takes data from json file use type interface and iteratively display all the posts */}
 
         <button className="read-btn smallButton" onClick={() => toggleCard(post.id)}>
           {openPostId === post.id ? "Close" : "Read"}
-        </button>
+        </button> {/* toogles button text to Close or Read */}
       </div>
     ))}
 </div>

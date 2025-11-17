@@ -17,7 +17,7 @@ function Education() {
             <a className="educationLinks" href={item.href} target='_blank'><h3>{item.text}</h3></a>
           )
           return null;
-        })}
+        })} {/* depending on the type of data respective HTML tag is returned */}
     </div>
     ))}
     

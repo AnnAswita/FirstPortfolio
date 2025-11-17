@@ -4,7 +4,7 @@ function ContactMe() {
 <div id="contact" className="contact">
   <div className="pageHeading"><h2>Contact Me</h2></div>
   <div className="contactContainer container">
-    <form action="https://api.web3forms.com/submit" method="post">
+    <form action="https://api.web3forms.com/submit" method="post"> {/* uses api web3forms to get the submitted form details*/}
     <input type="hidden" name="access_key" value="38286601-6d4d-4d24-aa3a-acdd1a08da15"></input>
     <label htmlFor="senderName"> Name: </label>
     <input type="text" name="senderName" required/>

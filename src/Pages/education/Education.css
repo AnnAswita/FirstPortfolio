@@ -4,15 +4,15 @@
     text-align: center;
     background-color: #1C352D ;
     color:white;
-} /**/
+} 
 h2{
 padding: 10px 0px;
-} /**/
+} 
 .educationContainer{
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 1rem;
-} /**/
+} 
 .item{
     border-bottom: 5px double #1C352D;
 }

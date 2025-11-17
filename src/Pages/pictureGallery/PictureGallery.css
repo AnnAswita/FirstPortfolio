@@ -1,9 +1,9 @@
 .picContainer{
-    display: grid;
+    display: grid; /*css grid used*/
     grid-template-columns: 1fr 1fr 1fr 1fr;
     gap: 5px;
 }
-.pic{
+.pic{ /*for each photo max width & height is set*/
     max-width: 100%;
     max-height: 75%;
 }

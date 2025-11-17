@@ -3,7 +3,7 @@
     gap:25px;
 }
 
-.projectCard{
+.projectCard{ /* project card styling */
     border: 5px double, #1C352D;
     padding: 10px;
 }

@@ -1,10 +1,10 @@
-.profilePhoto{
+.profilePhoto{ /* styling the profile photo */
   height:200px;
   width:200px;
-  border-radius:50%;
-} /**/
+  border-radius:50%; /* circle shape photo*/
+} 
 em{
-  font-weight: 900;
+  font-weight: 900; 
 }
 .aboutContent{
 line-height: 1.8;

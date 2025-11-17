@@ -2,7 +2,7 @@
   background-color: #CADCAE;
   color: #0A400C;
 }
-.container{  
+.container{   /* common container styling*/
   width:50%;
   padding: 5% 25%;
   margin:0px;
@@ -47,7 +47,7 @@ footer{
   background-color: #06D001;
 }
 
-.smallButton {
+.smallButton { /* For all small button  */
   border-style: none;
   border-radius: 5px;
   height: 2rem;
@@ -55,7 +55,7 @@ footer{
   font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.card {
+.card { /* For all cards in the portfolio */
   background: white;
   padding: 16px;
   border-radius: 12px;
@@ -65,7 +65,7 @@ footer{
   cursor: pointer;
 }
 
-.card:hover {
+.card:hover { /* hover effect for all cards */
   transform: translateY(-6px);
   box-shadow: 0 8px 18px rgba(0, 0, 0, 0.12);
   border-color: lightseagreen;
