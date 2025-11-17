@@ -22,3 +22,22 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+# Node modules
+node_modules/
+
+# Build output
+dist/
+
+# Vite cache
+.vite/
+
+# TypeScript build info
+*.tsbuildinfo
+
+# Generated JS / DTS files in src
+src/**/*.js
+src/**/*.d.ts
+
+# Vite config JS output (optional)
+vite.config.js
+vite.config.d.ts
