@@ -3,6 +3,6 @@ export interface ItemInfo {
     text: string;
     href?: string;
 }
-export interface Education {
+export interface EducationInfo {
     content: ItemInfo[];  
 }

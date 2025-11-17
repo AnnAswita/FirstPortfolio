@@ -1,0 +1,16 @@
+{
+    "posts": [
+        {
+            "id": 1,
+            "title": "My First Blog",
+            "date": "16 November 2025",
+            "content": "This is my first blog post in my own portfolio website. This website is created as part of my Master's module Software Evolution. In this I have used vite, react, Typescript, Api, json file data managememnt, css - flex, grid."
+        },
+        {
+            "id": 2,
+            "title": "Why modularization and refactoring important in software development",
+            "date": "17 November 2025",
+            "content": "Modularization is a important in any software application as it helps the developer to maintain the software easily and add new features to it without breaking the existing application"
+        }
+    ]
+}

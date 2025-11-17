@@ -1,8 +1,8 @@
 import './Education.css'
-import type {Education, ItemInfo} from '../types/education'
-import educationData from '../data/education.json'
+import type {EducationInfo, ItemInfo} from '../../types/education'
+import educationData from '../../data/education.json'
 function Education() {
-  const education: Education[] = educationData as Education[]
+  const education: EducationInfo[] = educationData as EducationInfo[]
   return (
 <div id="education" className="education">
   <div className="pageHeading"><h2>Education</h2></div>

@@ -1,0 +1,12 @@
+.profilePhoto{
+  height:200px;
+  width:200px;
+  border-radius:50%;
+} /**/
+em{
+  font-weight: 900;
+}
+.aboutContent{
+line-height: 1.8;
+}
+

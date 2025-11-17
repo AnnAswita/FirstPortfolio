@@ -21,12 +21,7 @@
 }
 
 .formButtons{
-    border-style: none;
-    border-radius: 5px;
-    height: 2rem;
     width: 5rem;
-    font-weight: 600;
-    font-family:Verdana, Geneva, Tahoma, sans-serif
 }
 #submit{
     background-color:#06D001;
@@ -35,4 +30,18 @@
 }
 #reset{
     background-color: #FFE700;
+}
+#submit:hover {
+  background-color: #0ffe0b;
+}
+
+#submit:active {
+  background-color: #0ffe0b;
+}
+#reset:hover {
+  background-color: #fffb00;
+}
+
+#reset:active {
+  background-color: #fffb00;
 }

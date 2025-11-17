@@ -1,4 +1,4 @@
-import video from '../assets/Proctored_Exam_Portal.mp4'
+import video from '../../assets/Proctored_Exam_Portal.mp4'
 import './VideoGallery.css'
 function VideoGallery() {
   return (

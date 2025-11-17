@@ -1,0 +1,11 @@
+.post-card {
+    margin-bottom: 1rem;
+}
+
+.read-btn{
+    background-color:lightblue;
+    margin-left: 20px;
+}
+.read-btn:hover {
+    background: rgb(14, 241, 230);
+}

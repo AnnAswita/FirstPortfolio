@@ -1,9 +1,9 @@
-import photoOne from '../assets/mits.jpg'
-import photoTwo from '../assets/trip.jpg'
-import photoThree from '../assets/hackathone.jpg'
-import photoFour from '../assets/friends.jpg'
-import photoFive from '../assets/friends2.jpg'
-import photoSix from '../assets/iconPhoto.png'
+import photoOne from '../../assets/mits.jpg'
+import photoTwo from '../../assets/trip.jpg'
+import photoThree from '../../assets/hackathone.jpg'
+import photoFour from '../../assets/friends.jpg'
+import photoFive from '../../assets/friends2.jpg'
+import photoSix from '../../assets/iconPhoto.png'
 import './PictureGallery.css'
 function PictureGallery() {
   return (
