@@ -1,0 +1,62 @@
+[
+    {
+        "content":[
+            {
+                "type":"h3",
+                "text":"Master in Software Engineering"
+            },
+            {
+                "type":"p",
+                "text":"2025-Present"
+            }
+        ]
+    },
+    {
+        "content":[
+            {
+                "type":"a",
+                "text":"University of Limerick",
+                "href":"https://www.ul.ie/"
+            },
+            {
+                "type":"p",
+                "text":"Limerick, Ireland"
+            }
+        ]
+    },
+    {
+        "content":[
+            {
+                "type":"h3",
+                "text":"Bachelor in Computer Science and Engineering (Honours)"
+            },
+            {
+                "type":"p",
+                "text":"2017-2021"
+            }
+        ]
+    },
+    {
+        "content":[
+            {
+                "type":"a",
+                "text":"Muthoot Institute of Technology and Science",
+                "href":"https://mgmits.ac.in/"
+            },
+            {
+                "type":"p",
+                "text":"Affiliated to"
+            },
+            {
+                "type":"a",
+                "text":"APJ Abdul Kalam University",
+                "href":"https://www.ktu.edu.in/"
+            },
+            {
+                "type":"p",
+                "text":"Kerala, India"
+            }
+        ]
+    }
+    
+]
