@@ -16,6 +16,8 @@ function App() {
   
   return (
     <HashRouter>
+  {/* ===================== HEADER SECTION ===================== */}
+  {/* Contains the main navigation bar and route configuration */}
     <header className="header">
         <nav className="navbar">
             <ul className="nav-links">

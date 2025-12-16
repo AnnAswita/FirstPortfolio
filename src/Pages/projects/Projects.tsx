@@ -9,7 +9,7 @@ function Projects() {
       <div className="pageHeading"><h2>My Projects</h2></div>
       <div className="projectContainer container">
       {projects.map((project) => (
-        <div className="projectCard card">
+        <div className="projectCard card"> {/*Add more contents to project card to enhance it*/}
           <h3>{project.title}</h3>
           <p>{project.content}</p>
           </div>

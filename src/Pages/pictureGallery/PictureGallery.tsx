@@ -5,6 +5,7 @@ import photoFour from '../../assets/friends.jpg'
 import photoFive from '../../assets/friends2.jpg'
 import photoSix from '../../assets/iconPhoto.png'
 import './PictureGallery.css'
+//Pictures are stored in assets, displayed in picture containers using img tag
 function PictureGallery() {
   return (
 <div id="pictureGallery" className="pictureGallery">
